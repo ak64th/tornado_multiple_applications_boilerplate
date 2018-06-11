@@ -1,0 +1,8 @@
+include MANIFEST.in
+include README.*
+include requirements.txt
+global-exclude *.pyc[o]
+global-exclude __pycache__
+
+recursive-include wp_monitor *
+recursive-exclude wp_monitor *.pyc
